@@ -1,0 +1,93 @@
+/* src/styles/global.css */
+:root {
+  --color-primary: #e98d1a;
+  --color-secondary: #ea9b39;
+  --color-accent: #f4f4f4;
+  --color-background: #f4f4f4;
+  --color-text: #333;
+  --color-brand1: #ecaa58;
+  --color-brand2: #edb977;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-primary);
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--color-secondary);
+}
+
+button {
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--color-secondary);
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: var(--color-accent);
+  font-size: 16px;
+  color: var(--color-text);
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+/* Example media query for mobile devices */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .dashboard .activity-card {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}

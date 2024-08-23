@@ -1,0 +1,112 @@
+.workout-tracking {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  background-color: var(--color-background);
+  border-radius: 10px;
+}
+
+.workout-tracking h2 {
+  text-align: center;
+  color: var(--color-primary);
+}
+
+.workout-selection {
+  margin-bottom: 20px;
+}
+
+.workout-selection h3 {
+  color: var(--color-primary);
+}
+
+.workout-selection ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.workout-selection li {
+  padding: 10px;
+  border: 1px solid var(--color-brand1);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  background-color: var(--color-background);
+}
+
+.workout-selection li:hover {
+  background-color: var(--color-accent);
+}
+
+.workout-details {
+  margin-bottom: 20px;
+}
+
+.workout-details .timer {
+  margin-bottom: 20px;
+}
+
+.workout-details .timer p {
+  font-size: 1.2em;
+  color: var(--color-primary);
+}
+
+.workout-details button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: var(--color-primary);
+  cursor: pointer;
+}
+
+.workout-details button:disabled {
+  background-color: var(--color-secondary);
+}
+
+.suggested-workouts {
+  margin-top: 20px;
+}
+
+.suggested-workouts h3 {
+  color: var(--color-primary);
+}
+
+.suggested-workouts ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.suggested-workouts li {
+  padding: 10px;
+  border: 1px solid var(--color-brand1);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: var(--color-background);
+}
+
+.routine-builder {
+  margin-top: 20px;
+}
+
+.saved-routines {
+  margin-top: 20px;
+}
+
+.routine-builder ul,
+.saved-routines ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.routine-builder li,
+.saved-routines li {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+.routine-builder input,
+.routine-builder button {
+  margin-top: 10px;
+}

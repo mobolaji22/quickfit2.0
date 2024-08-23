@@ -1,0 +1,59 @@
+.food-water-tracking {
+  padding: 20px;
+  max-width: 700px;
+  margin: auto;
+  background-color: var(--color-accent);
+  border-radius: 10px;
+}
+
+.food-water-tracking h2 {
+  text-align: center;
+  color: var(--color-primary);
+}
+
+.tracking-forms {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.food-tracking,
+.water-tracking {
+  padding: 10px;
+  border: 1px solid var(--color-brand1);
+  border-radius: 5px;
+  background-color: var(--color-background);
+}
+
+.food-tracking input[type="text"],
+.water-tracking input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid var(--color-brand1);
+  border-radius: 5px;
+}
+
+.nutrition-info {
+  margin-top: 10px;
+}
+
+.nutrition-info h4 {
+  color: var(--color-primary);
+}
+
+.feedback {
+  margin-top: 10px;
+  color: var(--color-secondary);
+}
+
+.navigation-links {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.navigation-links a {
+  color: var(--color-primary);
+  font-weight: bold;
+}

@@ -1,0 +1,84 @@
+.menstrual-tracker {
+  padding: 20px;
+  max-width: 700px;
+  margin: auto;
+  background-color: var(--color-accent);
+  border-radius: 10px;
+}
+
+.menstrual-tracker h2 {
+  text-align: center;
+  color: var(--color-primary);
+}
+
+.navigation-links {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.navigation-links a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.cycle-input,
+.symptoms-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.cycle-input label,
+.symptoms-input input,
+.cycle-input button,
+.symptoms-input button {
+  margin-bottom: 10px;
+}
+
+.cycle-input input,
+.symptoms-input input {
+  padding: 10px;
+  border: 1px solid var(--color-brand1);
+  border-radius: 5px;
+}
+
+.cycle-input button,
+.symptoms-input button {
+  align-self: flex-start;
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.cycle-details,
+.symptoms-list {
+  margin-top: 20px;
+}
+
+.cycle-details p,
+.symptoms-list ul {
+  margin: 5px 0;
+}
+
+.symptoms-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.symptoms-list li {
+  padding: 5px;
+  border: 1px solid var(--color-brand2);
+  border-radius: 5px;
+  background-color: var(--color-background);
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.success {
+  color: green;
+  margin-top: 10px;
+}

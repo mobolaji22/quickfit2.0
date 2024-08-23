@@ -1,0 +1,42 @@
+/* src/styles/Login.css */
+.login {
+  max-width: 700px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.login h2 {
+  margin-bottom: 20px;
+}
+
+.login form div {
+  margin-bottom: 15px;
+}
+
+.login label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: var(--color-text);
+}
+
+.login input {
+  border: 1px solid var(--color-brand1);
+}
+
+.login button {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.login p {
+  margin-top: 15px;
+}
+
+.login a {
+  color: var(--color-secondary);
+}
+
+.login a:hover {
+  color: var(--color-brand1);
+}

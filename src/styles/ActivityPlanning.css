@@ -1,0 +1,114 @@
+.activity-planning {
+  padding: 1rem;
+  max-width: 700px;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.activity-form,
+.filter-buttons,
+.activity-summary,
+.activities-list {
+  margin-bottom: 1.5rem;
+}
+
+.activity-form input,
+.activity-form textarea {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.75rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.activity-form button {
+  padding: 0.5rem 1rem;
+  background-color: #e98d1a;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.activity-form button:hover {
+  background-color: #ea9b39;
+}
+
+.filter-buttons button {
+  margin-right: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #ecaa58;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filter-buttons .active {
+  background-color: #e98d1a;
+}
+
+.activity-item {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  border-radius: 4px;
+  background-color: #f4f4f4;
+}
+
+.activity-item h4 {
+  margin-bottom: 0.5rem;
+}
+
+.feedback {
+  margin-top: 0.5rem;
+  color: green;
+  font-weight: bold;
+}
+
+.weather-alert {
+  padding: 1rem;
+  margin: 1rem 0;
+  background-color: #ffdddd;
+  border: 1px solid #f5c6cb;
+  color: #721c24;
+  border-radius: 4px;
+}
+
+.activity-item button {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  background-color: #ecaa58;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.activity-item button:hover {
+  background-color: #e98d1a;
+}
+
+@media (max-width: 768px) {
+  .activity-planning {
+    padding: 0.5rem;
+  }
+
+  .activity-form input,
+  .activity-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 0.9rem;
+  }
+
+  .filter-buttons button {
+    padding: 0.5rem;
+  }
+
+  .activity-item {
+    padding: 0.75rem;
+  }
+}
