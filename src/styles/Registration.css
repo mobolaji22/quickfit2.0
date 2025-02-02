@@ -1,8 +1,13 @@
 /* src/styles/Registration.css */
 .registration {
+  max-width: 500px;
+  min-height: 100vh;
   text-align: center;
-  max-width: 700px;
   margin: 0 auto;
+  padding: 0 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .registration h2 {
